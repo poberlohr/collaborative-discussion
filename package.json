@@ -1,0 +1,26 @@
+{
+  "name": "collaborative-discussion",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poberlohr/collaborative-discussion.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/poberlohr/collaborative-discussion/issues"
+  },
+  "homepage": "https://github.com/poberlohr/collaborative-discussion#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "eslint-config-google": "^0.9.1"
+  }
+}
