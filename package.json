@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/poberlohr/collaborative-discussion#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "vue": "^2.5.17"
   },
   "devDependencies": {
     "eslint": "^5.2.0",
