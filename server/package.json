@@ -1,5 +1,5 @@
 {
-  "name": "collaborative-discussion",
+  "name": "collaborative-discussion-server",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
@@ -17,8 +17,7 @@
   },
   "homepage": "https://github.com/poberlohr/collaborative-discussion#readme",
   "dependencies": {
-    "express": "^4.16.3",
-    "vue": "^2.5.17"
+    "express": "^4.16.3"
   },
   "devDependencies": {
     "eslint": "^5.2.0",
