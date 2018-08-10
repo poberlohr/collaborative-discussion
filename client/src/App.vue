@@ -25,7 +25,7 @@
 <script>
     export default {
         name: 'app',
-        data () {
+        data() {
             return {
                 claims: [
                     {
@@ -54,6 +54,22 @@
                     }
                 ]
             }
+        },
+        
+        mounted() {
+            var requestOptions = { 
+                method: 'GET',
+                mode: 'cors',
+            };
+
+            var request = new Request('http://localhost:8000/claims', requestOptions);
+            
+            fetch(request).then((response) => {
+                console.log(response);
+            }).catch((error) => {
+                console.log('error happened: ');
+                console.log(error);
+            });
         }
     }
 </script>
