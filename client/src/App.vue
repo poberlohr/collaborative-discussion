@@ -175,5 +175,15 @@
 
     .claim > .cons { grid-area: cons; }
 
+    .pro {
+        padding-left: 20px;
+        background: linear-gradient(to right, lightgreen, lightgreen 3px, rgba(0, 0, 0, 0) 10px);
+    }
+
+    .con {
+        padding-left: 20px;
+        background: linear-gradient(to right, lightcoral, lightcoral 3px, rgba(0, 0, 0, 0) 10px);
+    }
+
 
 </style>
